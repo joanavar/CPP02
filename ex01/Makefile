@@ -10,10 +10,9 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME		=	Orthodox
+NAME		=	Fixed
 SRCS		=	Fixed.cpp\
-				Main.cpp\
-				Fixed.hpp
+				Main.cpp
 
 CC			=	c++
 
@@ -40,3 +39,5 @@ clean:
 re: fclean all
 
 .PHONY	: all clean fclean re
+
+
