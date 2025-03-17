@@ -45,8 +45,6 @@ int   Fixed::toInt(void) const{
     return(this->value_fix / (1 << fraccional));
 }
 
-
-
 std:: ostream &operator<<(std:: ostream &ostream, Fixed const &fixed)
 {
     ostream << fixed.toFloat();
@@ -54,3 +52,4 @@ std:: ostream &operator<<(std:: ostream &ostream, Fixed const &fixed)
 }
 
 void    Fixed::setRawBits(int const raw){ this->value_fix = raw;}
+
